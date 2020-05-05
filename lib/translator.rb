@@ -7,6 +7,8 @@ def load_library(filepath)
   
   emoji_data = YAML.load_file(filepath)
   
+  emoji_data.transform_keys!(&:to_sym)
+  
   binding.pry
   
   pp emoji_data
