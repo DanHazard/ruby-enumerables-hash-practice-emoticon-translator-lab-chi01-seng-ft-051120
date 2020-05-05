@@ -9,7 +9,8 @@ def load_library(filepath)
   
   emoji_data.transform_keys!(&:to_sym)
   
-  emoji_data
+  emoji_data.each do |emotion_txt, emotion_sym|
+    
   
   binding.pry
   
