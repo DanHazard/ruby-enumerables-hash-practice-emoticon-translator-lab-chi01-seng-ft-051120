@@ -6,7 +6,7 @@ def load_library(filepath)
   
   emoji_data = YAML.load_file(filepath)
   
-  emoji_data.parse()
+  pp emoji_data
   
   
   
