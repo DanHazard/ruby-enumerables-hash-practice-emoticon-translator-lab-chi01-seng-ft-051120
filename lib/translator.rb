@@ -9,6 +9,8 @@ def load_library(filepath)
   
   emoji_data.transform_keys!(&:to_sym)
   
+  emoji_data
+  
   binding.pry
   
   pp emoji_data
