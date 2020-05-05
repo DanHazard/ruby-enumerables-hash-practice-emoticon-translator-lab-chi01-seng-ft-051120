@@ -4,7 +4,7 @@ require "yaml"
 def load_library
   # code goes here
   
-  yaml
+  YAML.load
   
 end
 
