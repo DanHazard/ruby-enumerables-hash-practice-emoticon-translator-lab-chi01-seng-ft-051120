@@ -4,7 +4,9 @@ require "yaml"
 def load_library(filepath)
   # code goes here
   
-  YAML.load_file(filepath)
+  emoji_data = YAML.load_file(filepath)
+  
+  emoji_data.parse()
   
   
   
