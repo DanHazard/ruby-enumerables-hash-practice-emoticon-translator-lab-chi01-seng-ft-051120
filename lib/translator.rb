@@ -10,7 +10,7 @@ def load_library(filepath)
   
 end
 
-load_library("emoticons.yml")
+load_library("lib/emoticons.yml")
 
 
 
