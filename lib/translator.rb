@@ -1,10 +1,13 @@
 # require modules here
 require "yaml"
+require "pry"
 
 def load_library(filepath)
   # code goes here
   
   emoji_data = YAML.load_file(filepath)
+  
+  binding.pry
   
   pp emoji_data
   
