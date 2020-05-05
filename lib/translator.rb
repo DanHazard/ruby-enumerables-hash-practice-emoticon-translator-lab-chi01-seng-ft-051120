@@ -6,7 +6,7 @@ def load_library(filepath)
   
   YAML.load_file(filepath)
   
-  p filepath.inspect
+  p "done"
   
 end
 
