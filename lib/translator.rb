@@ -12,7 +12,10 @@ def load_library(filepath)
   emoji_hash = {}
   emoji_data.each do |emotion_txt, emotion_sym|
     emotion_sym.each do |english, japanese|
-      if
+      if emoji_hash[name] == nil
+        emoji_hash[name] = {}
+      end
+      
   
   binding.pry
   
