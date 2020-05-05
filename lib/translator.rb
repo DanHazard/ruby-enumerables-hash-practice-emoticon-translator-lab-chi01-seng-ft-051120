@@ -6,6 +6,8 @@ def load_library(filepath)
   
   YAML.load_file(filepath)
   
+  p filepath.inspect
+  
 end
 
 def get_japanese_emoticon
